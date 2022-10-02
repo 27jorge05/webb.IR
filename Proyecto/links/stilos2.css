@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+header>#head{
+    width: 100%;
+    height: 150px;
+
+    /* border: 2px black solid; */
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    display: flex;
+    
+}
+section{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+#head>#head1{
+    width:25% ;
+    
+}
+#head>#head1>#logos{
+    background-color: aliceblue;
+    
+}
+#head>#head2{
+    width:50% ;
+    
+}
+#head>#head2>h1{
+    width:50% ;
+    color: beige;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:5px;
+    font-size: 60px;
+    
+}
+#head>#head3{
+    width:25% ;
+    
+}
+
+/*
+menu en el head
+*/
+
+#menu{
+    flex-direction: row;
+    display: flex;
+    flex-grow: initial;
+    height: 60px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgb(41, 28, 56) ;
+}
+#menu>*{
+    flex-grow: 1;
+    display: flex;
+    background-color: rgb(41, 28, 56);
+    border-radius: 10px;
+}
+#menu>.menus{
+    width: 100%;
+    display: flex;
+    
+    
+    
+}
+#menu>.menus>a{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    font-size:30px;
+    border:4px solid rgb(44, 15, 71) ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(110, 34, 182);
+    
+}
+
+
+
+
+
+
+
+/*
+
+
+
+
+cuerpo
+
+
+
+
+*/
+#cuerpo{
+    width: 100%;
+    
+    
+    background-image: url('../img/fondo/fondo.jpg');
+    background-image: url("../fondo.jpg");
+   justify-content: center;
+    display: flex;
+}
+#cuerpo>#subcuerpo{
+    width: 90%;
+    min-height: 700px;
+    background-color: rgb(5, 5, 39);
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+
+
+/*
+vs 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+#subcuerpo>.pain{
+    
+    width: 90%;
+    display: flex;
+    flex-direction:column ;
+    margin-bottom: 60px;
+    z-index: 1;
+ }
+
+#subcuerpo>.pain>.info{
+    
+    width: 68%;
+    padding: 1%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+    display: flex;
+    background-color: rgb(149, 150, 206);
+    border-radius: 15px;
+    flex-direction:column ;
+   
+    z-index: 3;
+    
+
+}
+#subcuerpo>.pain>.info>h2{
+    text-align: center;
+}
+#subcuerpo>.pain>.img{
+    display: flex;
+    margin-top: -40px;
+    width: 70%;
+    justify-content: center;
+    
+}
+#subcuerpo>.pain>.img>img{
+    display: flex;
+    
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+
+
+
+/*historia*/
+#subcuerpo>#video{
+    margin-top: 50px;
+     /* border: 5px red solid;  */
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+#subcuerpo>#video>video{
+    
+    width: 45%;
+    display: flex;
+}
+#subcuerpo>#video>#text{
+    border: 5px rgb(228, 173, 71) solid;
+    width: 45%;
+    background-color: bisque;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+}
+
+#subcuerpo>#video>#text>h3{
+margin-bottom: 20px;
+}
+
+
+
+/*inicio
+*/
+
+
+#subcuerpo>#ima{
+    width: 80%;
+}
+#subcuerpo>#ima>img{
+    width: 100%;
+    border-radius: 2px;
+}
+#subcuerpo>#obj{
+    margin-top: 20px;
+    width: 80%;
+    margin-bottom: 60px;
+    justify-content: space-around;
+}
+#subcuerpo>#obj>img{
+    width: 20%;
+    border-radius: 2px;
+    border: solid rgb(126, 85, 10) 2px;
+    background-color: rgba(235, 181, 35, 0.096) ;
+}
+#subcuerpo>#obj>#text{
+    width: 60%;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    font-size:20px ;
+    background-color: rgb(235, 181, 35, 0.096) ;
+}
+
+#subcuerpo>#obj>#text>h3{
+    margin-bottom: 50px;
+}
+
+
+/*juego*/
+
+
+#subcuerpo>.plan{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#subcuerpo>.plan>.text{
+    border: 5px solid rgb(35, 167, 74);
+    display: flex;
+    height:200px ;
+    justify-content: center;
+    color: antiquewhite;
+    background-color: rgb(38, 38, 68);
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-size: 30px;
+}
+#subcuerpo>.plan>.text>h2{
+    margin-bottom: 70px;
+    font-size: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
